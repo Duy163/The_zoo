@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    color: yellow;
+    padding: 3rem;
+    background-color: green;
+    margin-bottom: 3rem;
+}
+
+.hinhanh{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+.hoa{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.dongvat{
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+}
+
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+.btn-1{
+    width: 50%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    padding: 5px 10px;
+    /* background-color: black; */
+    transition: 0.3s;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+}
+
+.zoo{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 3px;
+}
+
+.btn-zoo img{
+    height: 50rem;
+    width: 100%;
+    background-size: cover;
+}
+
+.back{
+    padding: 5rem;
+    background-color: green;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.3rem;
+    font-size: 50px;
+}
